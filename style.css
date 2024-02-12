@@ -53,6 +53,22 @@ p.skill-name span {
 }
 
 
+/* Projects */
+
+.project-buttons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card.cards {
+    height: 100%;
+}
+
+.Certificates {
+    margin: 30px;
+}
 
 /* Footer */
 h4.connect {
@@ -66,19 +82,28 @@ h4.connect a {
 @media screen and (max-width: 700px) {
   h3.my-name {
     margin-bottom: 9px;
-    font-size: 30px;
+    font-size: 23px;
     font-weight: 500;
-    line-height: 45px;
+    line-height: 30px;
   }
 
   h4.my-profile {
     margin: 16px 0 0 0;
     font-weight: 500;
-    line-height: 29px;
-    font-size: 25px;
+    line-height: 24px;
+    font-size: 20px;
   }
 
   .card {
     margin: 10px;
   }
+
+  .col-md-3 {
+    margin: 16px 5px;
+}
+
+  .card.cards {
+    margin: 16px 5px;
+}
+
 }
