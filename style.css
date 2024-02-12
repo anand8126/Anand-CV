@@ -1,0 +1,84 @@
+.img-profile {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  background-color: blueviolet;
+}
+
+.img-profile img {
+  border-radius: 50%;
+  padding: 4px;
+  height: 200px;
+  width: 200px;
+}
+
+.basic-details {
+  margin: 40px 0 0 0;
+}
+
+h2.say-hey {
+  line-height: 60px;
+  font-weight: 900;
+  font-size: 46px;
+  margin-bottom: 10px;
+}
+
+h3.my-name {
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+h4.my-profile {
+  font-weight: 400;
+  line-height: 40px;
+  font-size: 31px;
+}
+
+/* My Tech Skills */
+.skill-logo {
+  width: 25px;
+}
+
+p.skill-name {
+  margin: 20px 0px;
+  line-height: 25px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+p.skill-name span {
+  padding-left: 10px;
+}
+
+
+
+/* Footer */
+h4.connect {
+    text-align: center;
+}
+
+h4.connect a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 700px) {
+  h3.my-name {
+    margin-bottom: 9px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+  }
+
+  h4.my-profile {
+    margin: 16px 0 0 0;
+    font-weight: 500;
+    line-height: 29px;
+    font-size: 25px;
+  }
+
+  .card {
+    margin: 10px;
+  }
+}
