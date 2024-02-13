@@ -70,6 +70,16 @@ p.skill-name span {
     margin: 30px;
 }
 
+
+/* Educations */
+
+
+td,
+th ,
+tr  {
+    border: 1px solid !important;
+}
+
 /* Footer */
 h4.connect {
     text-align: center;
@@ -78,6 +88,9 @@ h4.connect {
 h4.connect a {
     text-decoration: none;
 }
+
+
+
 
 @media screen and (max-width: 700px) {
   h3.my-name {
