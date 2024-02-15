@@ -176,4 +176,9 @@ p.dot {
   .card.cards {
     margin: 16px 5px;
   }
+
+  .left-side .card-body img{
+    width: 290px;
+    height: 100%;
+  }
 }
