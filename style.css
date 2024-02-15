@@ -182,3 +182,19 @@ p.dot {
     height: 100%;
   }
 }
+
+@media screen and (max-width:400px) {
+
+  
+.left-side{
+  height: 100%;
+  background-color: #ff6057;
+  border-top-right-radius: 150px;
+}
+
+
+  .left-side .card-body img{
+    width: 200px;
+    height: 100%;
+  }
+}
